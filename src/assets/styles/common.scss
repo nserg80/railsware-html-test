@@ -1,0 +1,24 @@
+body {
+    background: #fff;
+    color: #000;
+    font: 16px/1.172 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #1a4f8b;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.home-link-active {
+    opacity: 0.7;
+    pointer-events: none;
+}
+

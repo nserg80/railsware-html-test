@@ -1,0 +1,48 @@
+.button {
+    background: #1a4f8b;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background: #0f3e73;
+        text-decoration: none;
+    }
+
+    &:active {
+        background: #2c66a8;
+    }
+
+    &[disabled] {
+        opacity: 0.7;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    &_danger {
+        background: #f14436;
+
+        &:hover {
+            background: #e03629;
+        }
+    
+        &:active {
+            background: #f44f44;
+        }
+    }
+
+    &_sm {
+        border-radius: 5px;
+        padding: 12px;
+    }
+
+    &_fb {
+        background: #385C8E;
+    }
+}

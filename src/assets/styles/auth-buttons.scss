@@ -1,0 +1,11 @@
+.auth-buttons {
+    &__row {
+        display: flex;
+        gap: 14px;
+        margin-top: 36px;
+
+        .button {
+            flex: 1 1 0;
+        }
+    }
+}
